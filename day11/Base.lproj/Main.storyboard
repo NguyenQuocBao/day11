@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="dcJ-iT-Q2A">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <scenes>
+        <!--Table View Controller - Day11 homework-->
+        <scene sceneID="2tW-Q8-8BX">
+            <objects>
+                <tableViewController id="DRU-4n-mmh" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="3Kb-fU-uCw">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection id="ShI-Aa-iYW">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="oPy-Py-Dxg" style="IBUITableViewCellStyleDefault" id="FsD-aj-O6H">
+                                        <rect key="frame" x="0.0" y="64" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="FsD-aj-O6H" id="RUP-IK-nLC">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Mario" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="oPy-Py-Dxg">
+                                                    <rect key="frame" x="15" y="0.0" width="270" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="yPN-EM-Pfg" kind="push" id="BtJ-Xu-S7t"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="aEx-2m-Xrg" style="IBUITableViewCellStyleDefault" id="R0i-at-ISk">
+                                        <rect key="frame" x="0.0" y="108" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="R0i-at-ISk" id="Cx3-Sc-UWE">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Ball" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aEx-2m-Xrg">
+                                                    <rect key="frame" x="15" y="0.0" width="270" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="vXZ-lx-hvc" kind="push" id="u1S-T7-V1y"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="2Dp-mv-vUK">
+                                        <rect key="frame" x="0.0" y="152" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2Dp-mv-vUK" id="qX7-Bg-fg8">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Day11 homework" id="cJF-4D-g9W"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fD0-X2-9vE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="315" y="-129"/>
+        </scene>
+        <!--Mario Controller - Mario Game-->
+        <scene sceneID="jOJ-to-J8e">
+            <objects>
+                <viewController id="yPN-EM-Pfg" customClass="MarioController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="AeY-yZ-fAO"/>
+                        <viewControllerLayoutGuide type="bottom" id="asT-9N-3Ea"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bmQ-mx-rlC">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="grass2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="3HH-cp-OyC">
+                                <rect key="frame" x="0.0" y="230" width="568" height="90"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mario-1.png" translatesAutoresizingMaskIntoConstraints="NO" id="VQh-7V-T5y">
+                                <rect key="frame" x="0.0" y="182" width="48" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ball2.png" translatesAutoresizingMaskIntoConstraints="NO" id="qrj-R5-ije">
+                                <rect key="frame" x="520" y="182" width="48" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your point:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0AA-pK-TIR">
+                                <rect key="frame" x="20" y="83" width="87" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lZ4-rm-fQM">
+                                <rect key="frame" x="115" y="83" width="24" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="qrj-R5-ije" secondAttribute="trailing" id="0PM-pY-C6X"/>
+                            <constraint firstItem="3HH-cp-OyC" firstAttribute="top" secondItem="qrj-R5-ije" secondAttribute="bottom" id="JZ6-zo-yaA"/>
+                            <constraint firstItem="3HH-cp-OyC" firstAttribute="leading" secondItem="bmQ-mx-rlC" secondAttribute="leading" id="KTl-bD-FhP"/>
+                            <constraint firstAttribute="trailing" secondItem="3HH-cp-OyC" secondAttribute="trailing" id="LOY-AU-7cv"/>
+                            <constraint firstItem="VQh-7V-T5y" firstAttribute="leading" secondItem="bmQ-mx-rlC" secondAttribute="leading" id="lZJ-22-4aO"/>
+                            <constraint firstItem="asT-9N-3Ea" firstAttribute="top" secondItem="3HH-cp-OyC" secondAttribute="bottom" id="ne1-08-2wF"/>
+                            <constraint firstItem="3HH-cp-OyC" firstAttribute="top" secondItem="VQh-7V-T5y" secondAttribute="bottom" id="xY4-YT-4Tg"/>
+                        </constraints>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Mario Game" id="edS-L7-h5O">
+                        <barButtonItem key="leftBarButtonItem" title="Jum" id="D8k-ZT-GlN">
+                            <connections>
+                                <action selector="marioJum:" destination="yPN-EM-Pfg" id="YCV-U2-gOA"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Start Game" id="V1d-F3-xwJ">
+                            <connections>
+                                <action selector="gameStart:" destination="yPN-EM-Pfg" id="jdU-A3-6C3"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="ball" destination="qrj-R5-ije" id="Dpd-qU-vzu"/>
+                        <outlet property="lblPoint" destination="lZ4-rm-fQM" id="98N-J2-2Kp"/>
+                        <outlet property="mario" destination="VQh-7V-T5y" id="WFB-FC-xDE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sRH-1R-LRQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="714" y="-375"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="chp-ER-vgc">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="dcJ-iT-Q2A" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="vQn-2E-53A">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="DRU-4n-mmh" kind="relationship" relationship="rootViewController" id="QXw-zN-lxZ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2FF-5l-p7N" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-145" y="-25"/>
+        </scene>
+        <!--View Controller - Ball-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rHQ-sd-f8I"/>
+                        <viewControllerLayoutGuide type="bottom" id="az2-j2-jmy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="grass.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="RMd-28-3i5">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ball.png" translatesAutoresizingMaskIntoConstraints="NO" id="4tA-5B-qtf">
+                                <rect key="frame" x="6" y="80" width="104" height="101"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="RMd-28-3i5" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="Epp-Tt-pjH"/>
+                            <constraint firstItem="RMd-28-3i5" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="HRd-hl-4P8"/>
+                            <constraint firstItem="az2-j2-jmy" firstAttribute="top" secondItem="RMd-28-3i5" secondAttribute="bottom" id="UwQ-E0-hmh"/>
+                            <constraint firstAttribute="trailing" secondItem="RMd-28-3i5" secondAttribute="trailing" id="kxv-2B-BLU"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Ball" id="Tvr-zR-pEW">
+                        <barButtonItem key="rightBarButtonItem" title="start" id="5QQ-Qe-Tqu">
+                            <connections>
+                                <action selector="ballStart:" destination="vXZ-lx-hvc" id="Lgm-YF-HL3"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="ball" destination="4tA-5B-qtf" id="wAe-MU-OPt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="698" y="439"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ball.png" width="101" height="101"/>
+        <image name="ball2.png" width="48" height="48"/>
+        <image name="grass.jpg" width="640" height="1136"/>
+        <image name="grass2.jpg" width="1024" height="90"/>
+        <image name="mario-1.png" width="48" height="48"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
